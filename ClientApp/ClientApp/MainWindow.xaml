@@ -1,0 +1,13 @@
+﻿<Window x:Class="ClientApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="I Believe I Can Fly" Height="1000" Width="1800" Icon="Images/Icon.ico" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Canvas Name="canvas" Width="1800">
+            <Image Name="image" Height="969" Width="571" Canvas.Left="-576"/>
+        </Canvas>
+    </Grid>
+</Window>
